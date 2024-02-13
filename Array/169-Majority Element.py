@@ -22,7 +22,7 @@
 
 # Code
 class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+    def majorityElement(self, nums: list[int]) -> int:
         hmap = {}
         for i in nums:
             if i in hmap:
